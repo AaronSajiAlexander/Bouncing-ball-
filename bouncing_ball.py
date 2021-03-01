@@ -1,16 +1,8 @@
-'''
-def f1():
-    x=1
-    print(x)
-    x=12
-f1()
-'''
+#this bouncing ball creates new balls when space-bar is pressed and each ball will have a unique color ! 
 import pygame
 import random
  
 BLACK = (10, 0, 0)
-#MIX = (a,b,c)
- 
 SCREEN_WIDTH = 700
 SCREEN_HEIGHT = 500
 BALL_SIZE = 25
